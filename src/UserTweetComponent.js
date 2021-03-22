@@ -8,16 +8,12 @@ const UserTweetComponent = () => {
         alt="profile-pic"
         className="ui avatar circular image profile-pic"
         src={twitterLogo}
-      />{" "}
+      />
       <div className="flex-column tweet-content">
-        {" "}
-        {/* <div className="tweet-content"> */}{" "}
-        <textarea placeholder="What's happening?" class="txta">
-          {" "}
-        </textarea>{" "}
-        {/* </div> */}{" "}
-        <div className="tweet-visibility"> Everyone can reply </div>{" "}
-      </div>{" "}
+        <textarea placeholder="What's happening?" className="txta"></textarea>
+
+        <div className="tweet-visibility"> Everyone can reply </div>
+      </div>
     </div>
   );
 };
