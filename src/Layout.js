@@ -6,18 +6,18 @@ import MiscComponent from "./MiscComponent";
 
 const Layout = () => {
   return (
-    <div className="grid-container">
-      <div className="grid-item"></div>
-      <div className="grid-item">
+    <div className="flex-container">
+      <div className="flex-container-item one"></div>
+      <div className="flex-container-item two">
         <SideNav />
       </div>
-      <div className="grid-item">
+      <div className="flex-container-item three">
         <Feed />
       </div>
-      <div className="grid-item">
+      <div className="flex-container-item four">
         <MiscComponent />
       </div>
-      <div className="grid-item"></div>
+      <div className="flex-container-item five"></div>
     </div>
   );
 };

@@ -53,25 +53,25 @@ const MiscComponent = () => {
       </MiscRoundedContainer>
 
       <div className="footer flex-row ">
-        <a href="" className="small-text light-font">
+        <a href="/" className="small-text light-font">
           Terms of Service
         </a>
-        <a href="" className="small-text light-font">
+        <a href="/" className="small-text light-font">
           Privacy Policy
         </a>
-        <a href="" className="small-text light-font">
+        <a href="/" className="small-text light-font">
           Cookie Policy
         </a>
-        <a href="" className="small-text light-font">
+        <a href="/" className="small-text light-font">
           Ads info
         </a>
-        <a href="" className="small-text light-font">
+        <a href="/" className="small-text light-font">
           More...
         </a>
-        <a href="" className="small-text light-font">
+        <a href="/" className="small-text light-font">
           © 2021
         </a>
-        <a href="" className="small-text light-font">
+        <a href="/" className="small-text light-font">
           Twitter, Inc.
         </a>
       </div>

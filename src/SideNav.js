@@ -22,8 +22,7 @@ const SideNav = () => {
       <NavItem icon={listIcon} text="Lists" />
       <NavItem icon={profileIcon} text="Profile" />
       <NavItem icon={moreIcon} text="More" />
-
-      <button className="btn-tweet">Tweet</button>
+      <div className="btn-tweet">Tweet</div>
     </div>
   );
 };

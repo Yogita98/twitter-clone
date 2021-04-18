@@ -1,5 +1,5 @@
 import React from "react";
-import likeIcon from "./like.svg";
+// import likeIcon from "./like.svg";
 
 const TweetContent = ({ name, handle, time, tweetText, tweetImg }) => {
   return (
